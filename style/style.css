@@ -1,3 +1,40 @@
-#hi{
-    color: blue;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 50px;
+}
+.name{
+    color:rgb(34, 206, 148);
+}
+
+section{
+    display: flex;
+}
+
+.half-width{
+    width:50%;
+    padding-left: 10%;
+}
+.half-width img{
+    padding: 200px 10px 10px 5px;
+    width:80%; 
+}
+
+.link-button{
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: 400;
+    background-image: linear-gradient(rgb(65, 231, 137), rgb(2,22,22));
+    padding: 10px 40px;
+
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
 }
