@@ -11,7 +11,7 @@ h1{
     color:rgb(34, 206, 148);
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -57,3 +57,39 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.f2{
+    background-color: rgb(190, 226, 226);
+    box-shadow: 10px 10px 30px greenyellow;
+    border: darkblue;
+    width:40%;
+    margin: 5%;
+    padding-left: 5%;
+    border-radius: 3px;
+}
+
+#hof{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(99, 231, 47));
+    border-image-slice: 1;
+}
+
+#penny{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(47, 4, 53),rgb(201, 157, 207));
+    border-image-slice: 1;
+}
+
+.friends{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-top: 36px;
+    
+}
+    
+    
+    
+
+
+
